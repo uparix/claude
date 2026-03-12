@@ -1,2 +1,2 @@
-# claude
-Claude AI related stuff
+# Claude
+Claude AI related stuff. A collection of useful AI markdown files.
