@@ -15,6 +15,7 @@ https://github.com/uparix/claude/tree/main/projects/pongwars/pongwars.mov
 - There is no user interaction and the game never finishes
 - In the status bar show the total amount of squares for each side like this `day 512 | night 512` at the bottom center
 - Scores are updated incrementally on each square flip, not recomputed each frame.
+- The speed of the balls should hava a slight variation 
 
 ## Design
 - There are only two colors: Night (right side): #0F4A5A and Day (left side): #D8E7E2
