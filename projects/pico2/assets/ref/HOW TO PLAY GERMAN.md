@@ -1,8 +1,6 @@
 # Pico
 ein Spiel für zwei
-
 ---
-
 **Material:** Es gibt 11 Karten mit einer *Stärke* von 2 bis 10, 13, 16 und einem *Punktwert* von 1 bis 4 Punkten.
 
 **Start:** Alle KArten werden gemischt und verdeckt verteilt. Die überschüssige Karte kommt offen auf den Tisch und wird diesmal nicht verwendet.
@@ -20,7 +18,6 @@ Die Spieler legen nun die nächste Karte verdeckt ab und decken wieder gemeinsam
 **Rückrunde**: Für die Rückrunde erhält jeder Spieler die Handkarten des anderen aus der Hinrunde. Es wird nach denselben Regen gespielt wie die Hinrunde.
 
 **Spielende:** Nach Hin- und Rückrunde gewinnt der Spieler, der aus beiden Runden die höchste Gesamtpunktzahl hat.
-
 
 # Variante: 
 Pico für 3 Spieler
