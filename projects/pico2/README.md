@@ -15,7 +15,7 @@ assets/
 
 The deck has 11 cards. Each card has a **strength** (used to resolve duels) and a **pip value** (scored when won).
 
-| Card | Pips |
+| Card | Pip  |
 |-----:|-----:|
 |    4 |    1 |
 |    5 |    2 |
