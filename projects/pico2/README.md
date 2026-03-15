@@ -7,11 +7,16 @@ The game is composed of 11 cards. These are numbered 4 through 13 plus 16 and ea
 
 ```
 assets/
-├── pico2_cards.png
-└── pico2_cover.png
+├── ref/**           # Content here should *not* be used, only added as a reference
+├── pico2_cards.png  # Pico cards tileset
+└── pico2_cover.png  # Pico cover card
+└── play_deck.png    # A possible play deck example
+└── card_16.png      # The missing card 16. (but it is in a different color)
 ```
 
-`pico2_cards.png` is a tileset of 10 card faces arranged in 2 rows × 5 columns. Each tile is **240 × 370 px**. Cards are ordered left-to-right, top-to-bottom with values from **4 to 16**.
+All assets are in ``PNG`` format.
+
+`pico2_cards.png` is a tileset of 10 card faces arranged in 2 rows × 5 columns. Each tile is **240 × 370 px**. Cards are ordered left-to-right, top-to-bottom with values from **4 to 16**. The card 16 is missing in this tileset.
 
 The deck has 11 cards. Each card has a **strength** (used to resolve duels) and a **pip value** (scored when won).
 
