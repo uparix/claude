@@ -11,21 +11,21 @@ assets/
 └── pico2_cover.png
 ```
 
-`pico2_cards.png` is a tileset of 10 card faces arranged in 2 rows × 5 columns. Each tile is **240 × 370 px**. Cards are ordered left-to-right, top-to-bottom with values from **4 to 16**. Cards 2 and 3 are missing.
+`pico2_cards.png` is a tileset of 10 card faces arranged in 2 rows × 5 columns. Each tile is **240 × 370 px**. Cards are ordered left-to-right, top-to-bottom with values from **4 to 16**.
 
 The deck has 11 cards. Each card has a **strength** (used to resolve duels) and a **pip value** (scored when won).
 
 | Card | Pips |
 |-----:|-----:|
-|    2 |    1 |
-|    3 |    1 |
-|    4 |    2 |
+|    4 |    1 |
 |    5 |    2 |
 |    6 |    2 |
 |    7 |    2 |
 |    8 |    3 |
 |    9 |    3 |
 |   10 |    3 |
+|   11 |    3 |
+|   12 |    3 |
 |   13 |    3 |
 |   16 |    4 |
 
