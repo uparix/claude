@@ -13,6 +13,8 @@ claude/
 └── projects/       # AI-assisted project implementations
     ├── pacman/     # Pac-Man implementation
     ├── pongwars/   # C + Raylib territory-control Pong variant
+    ├── pico2/      # Pico2 card game
+    ├── tankwars/   # Tank Wars fom cleancoders
     └── wumpus/     # Java implementation of Hunt the Wumpus (1973)
 ```
 
