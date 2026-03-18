@@ -40,5 +40,43 @@
 > **Goal**: Complete all pure engine modules. Every module has tests. Tracks some corss-dependencies but maximize parallelism.
 
 - [] T006 [C] [P] [US6] Implement wind system (initial wind from normal distribution, per-turn regression-to-mean update, ±30m/s clamping bounds, regression toward zero over many turns. `in src/engine/wind.ts + wind.test.ts` → T004
+- [] T007 [B] [P] [US1] Implmenet tank engine (tank placemanet on terrain at even spacing, tank dimensions/rendering constants, name pool ??? avoiding player color). Write tests for: tanks placed at acorrect terrain heights, even spacing, no duplicate colors. ìn src/engine/tank.t ???
+- [] T007 [C] [P] [US5] Implement AI system (ideal shot calculation accounting for gravity+wind, difficulty variance tables, target selection ??? clamping). Write tests for: ideal shot hits target in zero wind, variance increases with lower difficulty, target persistence works. `in src/engine ??? T004, T003
+- [] T009 [D] [P] [US6] Implement projectile system (projectile creation from tank+angle+power+weapon, animation step function, terrain ?? detectio, out-of-bounds check). Write tests for: collision withterrain at correct height, blast radius proximity check, OOB detection. `in src. ??? projectile.test.ts` → T004, T003, T005
+- [] T010 [A] [P] [US1] Implement explosion system (state machine: growing → peak → fading → done, particle generation with physics, weapon animation state with debris pieces). Write tests for: state transisitions, duration timing, particle count within bounds. `in src/engine/explsion.ts explosion.test.ts` → T005
 
+## ===== CHECKPOINT 1: Engine Verification =====
 
+> **All engine modules complete with passing tests.**
+>
+> ### What to test
+>
+> ```bash
+>   npm test
+> ````
+>
+> - All tests green accross: terrain, physics, wind, weapons, tank, ai, projectile, explosion
+> Coverage >80% on engine modules
+> `npm run build` compiles without errors
+> `npm run lint` passes
+>
+> ### What you'll see
+>
+> - No UI yet - this is pure logic verification
+> - Confirm physics feel right by inspecting test outputs (trajectory distances, damage values)
+> - Review AI accuracy spread at each difficulty level in test output
+> 
+> ### Go/No-Go
+>
+> - [] All engine tests pass
+> - [] Build succeeds
+> - [] Lint passes
+> - [] Physics constants feel calibrated (review test assertions)
+
+## Phase 3: State Management & UI Screens
+
+> **Goal**: Build React contexts, persistence, and all non-canvas screens. After this phase, the full menu flow is clickable end-to-end.
+
+- [] T011 [A] [P] [US7] Implement LocalStorage service (save/load/clear player profile, JSON serialization, hadnle missing/corrupted data gracefully). Write tests for: save/load round-trip, default values on missing data. `in src/services/storage.ts` → T002
+- [] T012 [B] [P] [US7] Implement UserContext (player name, balance, stats, weapon inventory; oads from storage on mount, saves on change; provides earnings calculation with difficulty multiplier). `in src/context/UserContext.tsx` → T011, T005
+- [] T013 [C] [US1] Implement GameContext (game phase state machine, terrain/tank/wind state, turn management, selected weapon tracking, winner detection; provides phase transaction functions: startConfig, startShop, startBattle, endGame, playAgain). `in src/context/GameContext.tsx` → T002, T003, T007, T006
