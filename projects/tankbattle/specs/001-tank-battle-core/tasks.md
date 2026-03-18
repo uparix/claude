@@ -65,7 +65,7 @@
 > - No UI yet - this is pure logic verification
 > - Confirm physics feel right by inspecting test outputs (trajectory distances, damage values)
 > - Review AI accuracy spread at each difficulty level in test output
-> 
+>
 > ### Go/No-Go
 >
 > - [] All engine tests pass

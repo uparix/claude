@@ -87,7 +87,6 @@ Raylib 5.5 is installed via Homebrew. The Makefile links against `/opt/homebrew/
 - Font assets: `assets/slkscr.ttf` (normal), `assets/slkscrb.ttf` (bold)
 - Original JS version: <https://github.com/vnglst/pong-wars>
 
-
 ## Additional Resources
 
 - <https://github.com/vnglst/pong-wars>
