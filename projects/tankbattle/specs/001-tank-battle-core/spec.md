@@ -6,6 +6,7 @@
 **Input**: One-shot specification for a simplified but fully playable turn-based artillery tank game. Includes battle configuration, basic weapons (standard shell, sniper shot, heavy artillery), physics-based combat, AI opponents, and a complete game loop. Excludes campaign mode, sound effects, and animated loading screen.
 
 ## Overview
+
 > A browser-based, turn-based artillery game where a human player battles 1-10 AI tanks on destructible procedural. ???  shot power, accounting for wind, to destroy opponents. The game features a pre-battle weapon shop, configurable ???
 
 
@@ -37,7 +38,7 @@ A player opens the game, enters their name, configures a battle (terrain size, e
 5. **Given** a projectile hits a tank, **When** damage is applied, **Then** the tank's health decreases and ???
 6. **Given** a tank's health reaches 0, **When** destruction occurs, **Then** the tank is visually destroyed and ???
 7. **Given** only one tank remains alive, **When** the battle ends, **Then a game-over screen show the ???
-   
+
 ### User Story 2 - Configura Battle Settings (Priority: P1)
 
 The player customizes their battle experience by choosing terrain szie, number of enemies, AI difficulty ???

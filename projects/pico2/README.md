@@ -2,10 +2,9 @@
 
 The game is composed of 11 cards. These are numbered 4 through 13 plus 16 and each also bears a number of "pips". (From one on the 4 card to four on the 16 card.) A round is played as follows: each player is dealt 5 cards with the eleventh card discarded face-up. (Note that this means that you know exactly what cards your opponent holds.) Each turn both you and your opponent secretly select one of their respective cards and reveal them simultaneously. The higher card wins and that player sets that card aside scoring the number of pips on it. The loser retains his/her played card. However, if the higher card is more than twice the lower card then it's the lower card that is placed aside and scored. So the 13 will beat the 10 but lose to the 6. Play continues until one player is left with but a single card. Points are then scored and, here's the clever bit, players swap their complete original hands and do it again. This ensures that each game is exactly fair as both players will have equal opportunity to play a strong/weak hand. After these two rounds the points are totaled and a winner declared. There are, at most, fourteen card plays in a game and so the game is usually over in two or three minutes.
 
-
 ## Assets
 
-```
+```text
 assets/
 ├── ref/**           # Content here should *not* be used, only added as a reference
 ├── pico2_cards.png  # Pico cards tileset

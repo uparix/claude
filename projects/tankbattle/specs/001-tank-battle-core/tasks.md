@@ -22,7 +22,7 @@
 - → T### - Depends on task completing first
 - [GATE] - Checkpoint - all prior tasks must complete before proceeding
 
-# Phase 1: Project Foundation
+## Phase 1: Project Foundation
 
 > **Goal**: Scaffold project, define all types, build core engine modules with tests. All 4 tracks work independently after T001-T002 complete.
 
@@ -35,7 +35,8 @@
 - [] T004 [C] [P] [US6] Implement physics engine (velocity from power/angle, projectile position at time t, coordinate conversion world↔screen) callibration, angle conversion UI↔physics). Write tests for: trajectory symmetry, known angle/power outcomes, coordinate conversion round `src/engine/physics.ts + physics.test.ts` → T002
 - [] T005 [D] [P] [US3] Implement weapon configurations (3 weapon definitions with damage/blast/cost/speed/colors, damage calculation for difficulty multipliers). Write tests for: correct damage values, blast radius checks, economy math. `in src/engine/weapons.ts + weapons.test.ts`
 
-# Phase 2: Engine Completion
+## Phase 2: Engine Completion
+
 > **Goal**: Complete all pure engine modules. Every module has tests. Tracks some corss-dependencies but maximize parallelism.
 
 - [] T006 [C] [P] [US6] Implement wind system (initial wind from normal distribution, per-turn regression-to-mean update, ±30m/s clamping bounds, regression toward zero over many turns. `in src/engine/wind.ts + wind.test.ts` → T004
