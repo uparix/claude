@@ -4,7 +4,6 @@ PONGWARS is a C implementation of a territory-control **Pong** variant using Ray
 
 <https://github.com/uparix/claude/tree/main/projects/pongwars/pongwars.mov>
 
-
 ## Game Mechanics
 
 - Screen format is a square splitted up between left and right in the middle
@@ -16,7 +15,7 @@ PONGWARS is a C implementation of a territory-control **Pong** variant using Ray
 - There is no user interaction and the game never finishes
 - In the status bar show the total amount of squares for each side like this `day 512 | night 512` at the bottom center
 - Scores are updated incrementally on each square flip, not recomputed each frame.
-- The speed of the balls should hava a slight variation 
+- The speed of the balls should hava a slight variation
 
 ## Design
 
@@ -83,8 +82,6 @@ Raylib 5.5 is installed via Homebrew. The Makefile links against `/opt/homebrew/
 
 ## Reference
 
-- Raylib API reference: `docs/RAYLIB.md`
-- Font assets: `assets/slkscr.ttf` (normal), `assets/slkscrb.ttf` (bold)
 - Original JS version: <https://github.com/vnglst/pong-wars>
 
 ## Additional Resources

@@ -20,11 +20,11 @@
 ## Git Workflow
 
 - **Worktrees**: Use git worktrees when editing files that another parallel agent may also be editing within the same phase of the spec. This prevents merge conflicts between concurrent tracks.
-- **Commit often**: Make smal, focused commits as you complete each task or meaningful unit of work.
+- **Commit often**: Make small, focused commits as you complete each task or meaningful unit of work.
 - **Commit messages**: Start with the task ID, user story, or phase. Be clear about what changed and why. Exmaple: `feat(T003): implement terrain generation engine`
-- **Merge to main**: Always merge your work onto main when complete. Dp not leave finished work on detached branches or worktrees.
+- **Merge to main**: Always merge your work onto main when complete. Do not leave finished work on detached branches or worktrees.
 
 ## Spec & Task Reference
 
 - The implementation spec lives at `specs/001-tank-battle-core/spec.md`.
-- The task breakdown with parralle tracks and checkpoints is at `specs/001-tank-battle-core/tasks.md`.
+- The task breakdown with parallel tracks and checkpoints is at `specs/001-tank-battle-core/tasks.md`.
