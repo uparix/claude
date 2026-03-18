@@ -4,13 +4,6 @@
 
 - Write tests to achieve near-total test coverage. Every public function, branch, and edge case should have a corresponding test.
 - Run the full test suite and build before considering any task complete:
-
-  ```bash
-  make clean
-  make build
-  make run
-  ```
-
 - All three must pass clean. Do not commit that breaks tests, lint, or build.
 
 ## Code Quality
