@@ -27,8 +27,8 @@ PONGWARS is a C implementation of a territory-control **Pong** variant using Ray
 
 ## Screen Layout
 
-```layout
-+----------------------+
+```text
++----------+-----------+
 | day      | night     |
 |          |           |
 |          |           |
@@ -37,9 +37,9 @@ PONGWARS is a C implementation of a territory-control **Pong** variant using Ray
 |          |           |
 |          |           |
 |          |           |
-+----------------------+
++----------+-----------+
 |   DAY 10 | NIGHT 10  |
-+----------------------+
++----------+-----------+
 ````
 
 The background for the bottom status bar should be transparent
@@ -80,11 +80,11 @@ Raylib 5.5 is installed via Homebrew. The Makefile links against `/opt/homebrew/
 
 **Physics:** velocity-based, bounce off walls. Screen split left (Day: `#D8E7E2`) / right (Night: `#0F4A5A`). Scores are updated incrementally on each square flip, not recomputed each frame.
 
-## Reference
+## Reference (DO NOT USE THIS)
 
 - Original JS version: <https://github.com/vnglst/pong-wars>
 
-## Additional Resources
+## Additional Resources (DO NOT USE THIS)
 
 - <https://github.com/vnglst/pong-wars>
 - <https://pong-wars.vercel.app/>
