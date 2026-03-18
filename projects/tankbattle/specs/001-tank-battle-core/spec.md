@@ -9,7 +9,6 @@
 
 > A browser-based, turn-based artillery game where a human player battles 1-10 AI tanks on destructible procedural. ???  shot power, accounting for wind, to destroy opponents. The game features a pre-battle weapon shop, configurable ???
 
-
 ### Technology Stack
 
 - **Framework**: React 18 with TypScript (strict mode)

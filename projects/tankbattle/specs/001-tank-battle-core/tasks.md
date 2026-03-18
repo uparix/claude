@@ -29,7 +29,7 @@
 - [] T001 [A] [US1] Initialize Vite + React + Typescript project, configure Vitest, ESLint, tsconfig strict mode ìn project root`
 - [] T002 [A] [US1] Define all TypeScript interfaces and type enums (GamePhase, TankState, TerrainData, Projectile, WeaponType, WeaponC , GameState, StoredPlayerProfile) in `src/types/game.ts` → T001
 
-** After T002, all tracks begin in parallel:**
+**After T002, all tracks begin in parallel:**
 
 - [] T003 [B] [P] [US6] Implmenent terrain generation (midpoint displacement algorithm, seeded RNG, height interpolation, terrain size config) produces valid heights, interpolation accuracy, all 5 terrain sizes. `in src/engine/terrain.ts + terrain.test.ts` → T002
 - [] T004 [C] [P] [US6] Implement physics engine (velocity from power/angle, projectile position at time t, coordinate conversion world↔screen) callibration, angle conversion UI↔physics). Write tests for: trajectory symmetry, known angle/power outcomes, coordinate conversion round `src/engine/physics.ts + physics.test.ts` → T002
