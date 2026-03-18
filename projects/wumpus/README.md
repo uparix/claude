@@ -28,11 +28,11 @@ dodecahedron. Each room connects to exactly 3 other rooms.
 
 Each turn you receive wanrings about adjacent rooms:
 
-| Warning | Meaning |
-|---|---|
-| "You smell something terrible nearby." | The Wumpus is in an adjacent room. |
-|"You feel a cold wind blowing from a nearby cavern." | A pit is in an adjacent room. |
-| "You hear rustling nearby. | Bats are in adjacent room. |
+| Warning                                                 | Meaning                            |
+|---------------------------------------------------------|------------------------------------|
+| "You smell something terrible nearby."                  | The Wumpus is in an adjacent room. |
+| "You feel a cold wind blowing from a nearby cavern."    | A pit is in an adjacent room.      |
+| "You hear rustling nearby."                             | Bats are in adjacent room.         |
 
 ## Player Actions
 
@@ -42,7 +42,7 @@ Each turn the game display your currnet room and its connections, then prompts y
 
 Type `M`followed by the room number. It must be one of the adjacent rooms.
 
-````
+```text
 M 5
 ````
 
@@ -50,12 +50,13 @@ M 5
 
 Type `S`followed by the room numbers (1-5) along the arrow's path, separated by spaces or commas. If a room in the path is not connected to the previous one, the arrow flies in a random direction instead.
 
-````
+```text
 S 5 12 3
 ````
 
 or
-````
+
+```text
 S 5,12,3
 ````
 
@@ -73,7 +74,7 @@ mvn compile
 mvn exec:java
 ````
 
-## TEsting
+## Testing
 
 ```bash
 mvn test
