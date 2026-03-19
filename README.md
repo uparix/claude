@@ -12,9 +12,9 @@ claude/
 │   └── SKILLS.md   # Plan mode, subagent strategy, task management
 └── projects/       # AI-assisted project implementations
     ├── pacman/     # Pac-Man implementation
-    ├── pongwars/   # C + Raylib territory-control Pong variant
     ├── pico2/      # Pico2 card game
-    ├── tankwars/   # Tank Wars fom cleancoders
+    ├── pongwars/   # C + Raylib territory-control Pong variant
+    ├── tankbattle/ # Tank Battle fom cleancoders
     └── wumpus/     # Java implementation of Hunt the Wumpus (1973)
 ```
 
