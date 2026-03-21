@@ -1,3 +1,9 @@
+---
+name: uparix:software-development-rules
+description: >
+  These are the ever-green software development rules. Can you applie for all software based projects.
+---
+
 # Software Development Rules
 
 ## 1. No Prototype

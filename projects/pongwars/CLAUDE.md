@@ -1,5 +1,11 @@
 # PongWars - Project Instructions
 
+## Test Driven Development
+
+- Follow the laws of test driven development TDD.
+- Keep basic program logic away from library and framework code
+- 
+
 ## Testing
 
 - Write tests to achieve near-total test coverage. Every public function, branch, and edge case should have a corresponding test.

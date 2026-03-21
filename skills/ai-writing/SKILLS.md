@@ -1,3 +1,9 @@
+---
+name: uparix:ai-writing
+description: >
+  AI writing styles
+---
+
 # AI Writing Tropes to Avoid
 
 Add this file to your AI assistant's system prompt or context to help it avoid

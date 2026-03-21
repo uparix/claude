@@ -1,3 +1,9 @@
+---
+name: uparix:workflow
+description: >
+  Workflow orchestration guide
+---
+
 # Workflow Orchestration
 
 ## 1. Plan Mode Default
