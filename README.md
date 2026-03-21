@@ -14,7 +14,7 @@ claude/
 │   ├── pongwars/                    # Territory Control Pong variant
 │   ├── tankbattle/                  # Tank Battle from CleanCoders
 │   └── wumpus/                      # Java implementation of Hunt the Wumpus (1973)
-├── skills/                            
+└── skills/                            
     ├── ai-writing/                  # AI Writing guidelines
     ├── software-development-rules/  # Software development rules
     ├── test-driven-development/     # Test Driven Software Development (TDD)
