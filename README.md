@@ -6,16 +6,17 @@ A collection of Claude AI resources, skills, and projects — including workflow
 
 ```text
 claude/
-├── dev_rules/      # Software development principles
-│   └── SKILLS.md   # 11 rules for writing clean, shippable software
-├── workflow/       # Claude workflow orchestration guidelines
-│   └── SKILLS.md   # Plan mode, subagent strategy, task management
-└── projects/       # AI-assisted project implementations
-    ├── pacman/     # Pac-Man implementation
-    ├── pico2/      # Pico2 card game
-    ├── pongwars/   # C + Raylib territory-control Pong variant
-    ├── tankbattle/ # Tank Battle fom cleancoders
-    └── wumpus/     # Java implementation of Hunt the Wumpus (1973)
+├── skills/                            
+│   ├── ai-writing/                  # AI Writing guidelines
+│   ├── software-development-rules/  # Software development rules
+│   ├── test-driven-development/     # Test Driven Software Development (TDD)
+│   └── workflow/                    # Claude workflow orchestration guidelines
+└── projects/                        # AI-assisted project implementations
+    ├── pacman/                      # Pac-Man implementation
+    ├── pico2/                       # Pico2 card game (1996)
+    ├── pongwars/                    # Territory Control Pong variant
+    ├── tankbattle/                  # Tank Battle from CleanCoders
+    └── wumpus/                      # Java implementation of Hunt the Wumpus (1973)
 ```
 
 ## Skills
