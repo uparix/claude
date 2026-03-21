@@ -1,5 +1,5 @@
 ---
-name: uparix:ai-writing
+name: ai-writing
 description: >
   AI writing styles
 ---

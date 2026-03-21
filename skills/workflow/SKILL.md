@@ -1,5 +1,5 @@
 ---
-name: uparix:workflow
+name: workflow
 description: >
   Workflow orchestration guide
 ---

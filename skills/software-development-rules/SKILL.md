@@ -1,5 +1,5 @@
 ---
-name: uparix:software-development-rules
+name: software-development-rules
 description: >
   These are the ever-green software development rules. Can you applie for all software based projects.
 ---
