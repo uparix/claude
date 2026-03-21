@@ -2,7 +2,7 @@
 
 PONGWARS is a C implementation of a territory-control **Pong** variant using Raylib for graphics. Two balls (Day and Night) bounce around a grid, flipping squares to their team's color. The game runs continuously with no user interaction.
 
-<https://github.com/uparix/claude/tree/main/projects/pongwars/pongwars.mov>
+<https://github.com/uparix/claude/raw/refs/heads/main/projects/pongwars/pongwars.mov>
 
 ## Game Mechanics
 
