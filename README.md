@@ -22,7 +22,7 @@ claude/
 
 ## Skills
 
-### [dev_rules/SKILL.md](dev_rules/SKILLS.md)
+### [dsoftware-development-rules/SKILL.md](software-development-rules/SKILLS.md)
 
 11 software development rules covering shipping discipline, code simplicity, testing, bug hygiene, and design.
 
