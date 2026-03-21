@@ -6,18 +6,19 @@ A collection of Claude AI resources, skills, and projects — including workflow
 
 ```text
 claude/
+├── others/ 
+│   └── bias-game.md                 # BIAS Game
+├── projects/                        # AI-assisted project implementations
+│   ├── pacman/                      # Pac-Man implementation
+│   ├── pico2/                       # Pico2 card game (1996)
+│   ├── pongwars/                    # Territory Control Pong variant
+│   ├── tankbattle/                  # Tank Battle from CleanCoders
+│   └── wumpus/                      # Java implementation of Hunt the Wumpus (1973)
 ├── skills/                            
-│   ├── ai-writing/                  # AI Writing guidelines
-│   ├── software-development-rules/  # Software development rules
-│   ├── test-driven-development/     # Test Driven Software Development (TDD)
-│   └── workflow/                    # Claude workflow orchestration guidelines
-└── projects/                        # AI-assisted project implementations
-    ├── pacman/                      # Pac-Man implementation
-    ├── pico2/                       # Pico2 card game (1996)
-    ├── pongwars/                    # Territory Control Pong variant
-    ├── tankbattle/                  # Tank Battle from CleanCoders
-    └── wumpus/                      # Java implementation of Hunt the Wumpus (1973)
-```
+    ├── ai-writing/                  # AI Writing guidelines
+    ├── software-development-rules/  # Software development rules
+    ├── test-driven-development/     # Test Driven Software Development (TDD)
+    └── workflow/                    # Claude workflow orchestration guidelines
 
 ## Skills
 
