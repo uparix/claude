@@ -37,7 +37,7 @@ Claude workflow guidelines: plan mode, subagent strategy, self-improvement loops
 
 A Pac-Man implementation.
 
-### [PONGWARS](projects/pongwars/README.md)
+### [Pongwars](projects/pongwars/README.md)
 
 An implementation of a territory-control Pong variant. Two balls (Day and Night) bounce around a 32×32 grid, flipping squares to their team's color. Features hot-reload via `dlopen`, incremental scoring, and a two-file host/game split.
 

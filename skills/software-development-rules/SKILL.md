@@ -1,7 +1,7 @@
 ---
 name: software-development-rules
 description: >
-  These are the ever-green software development rules. Can you applie for all software based projects.
+  These are the ever-green software development rules. Can be applied for all kind of software based projects.
 ---
 
 # Software Development Rules
