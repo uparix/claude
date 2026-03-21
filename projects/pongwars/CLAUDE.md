@@ -4,7 +4,7 @@
 
 - Follow the laws of test driven development TDD.
 - Keep basic program logic away from library and framework code
-- 
+- Use the @superpowers:test-driven-development skill
 
 ## Testing
 
