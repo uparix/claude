@@ -1,0 +1,16 @@
+{
+  "name": "local",
+  "owner": {
+    "name": "andi"
+  },
+  "metadata": {
+    "description": "Local personal skills and plugins"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "source": "./skills",
+      "description": "Personal software development skills and guidelines"
+    }
+  ]
+}
