@@ -19,6 +19,7 @@ claude/
     ├── software-development-rules/  # Software development rules
     ├── test-driven-development/     # Test Driven Software Development (TDD)
     └── workflow/                    # Claude workflow orchestration guidelines
+```
 
 ## Skills
 
