@@ -1,6 +1,12 @@
 # Demo Scene Test Scroller
 
-Create a text scroller that scrolls the message "Hello World" from the right to left over the screen. Use only the megadeth font from the assets.
+Create a text scroller that scrolls the message "Hello World" from the right to left over the screen.
+Use only the `/assets/fonts/megadeth.png` font from the assets folder.
+
+## Application behaviour
+
+- Pause when `space` bar is pressed, continue when `space` pressed again
+- Repeat again from left when text is outside the screen.
 
 ## Assets
 
