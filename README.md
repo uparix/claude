@@ -12,6 +12,7 @@ claude/
 │   ├── pacman/                      # Pac-Man implementation
 │   ├── pico2/                       # Pico2 card game (1996)
 │   ├── pongwars/                    # Territory Control Pong variant
+│   ├── spaceinvaders/               # Space Invaders
 │   ├── tankbattle/                  # Tank Battle from CleanCoders
 │   └── wumpus/                      # Java implementation of Hunt the Wumpus (1973)
 └── skills/                            
