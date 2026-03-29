@@ -10,6 +10,7 @@ claude/
 │   └── bias-game.md                 # BIAS Game
 ├── projects/                        # AI-assisted project implementations
 │   ├── airwolf/                     # Airwolf (1984) shader screen
+│   ├── matrix/                      # Matrix Digital Rain (Emily Xie)
 │   ├── pacman/                      # Pac-Man implementation
 │   ├── pico2/                       # Pico2 card game (1996)
 │   ├── pongwars/                    # Territory Control Pong variant

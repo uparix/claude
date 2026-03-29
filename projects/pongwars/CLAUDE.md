@@ -1,5 +1,7 @@
 # PongWars - Project Instructions
 
+![alt tag](pongwars.gif)
+
 ## Test Driven Development
 
 - Follow the laws of test driven development TDD.
