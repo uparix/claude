@@ -9,12 +9,14 @@ claude/
 ├── others/ 
 │   └── bias-game.md                 # BIAS Game
 ├── projects/                        # AI-assisted project implementations
+│   ├── airwolf/                     # Airwolf (1984) shader screen
 │   ├── pacman/                      # Pac-Man implementation
 │   ├── pico2/                       # Pico2 card game (1996)
 │   ├── pongwars/                    # Territory Control Pong variant
 │   ├── spaceinvaders/               # Space Invaders (1978)
 │   ├── tankbattle/                  # Tank Battle from CleanCoders
-│   ├── textscrollers/               # DemoScene text Scrollers
+│   ├── textscroller/                # DemoScene text scroller
+│   ├── wormate/                     # Multiplayer online snake game
 │   └── wumpus/                      # Java implementation of Hunt the Wumpus (1973)
 └── skills/                            
     ├── ai-writing/                  # AI Writing guidelines

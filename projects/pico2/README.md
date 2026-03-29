@@ -6,11 +6,11 @@ The game is composed of 11 cards. These are numbered 4 through 13 plus 16 and ea
 
 ```text
 assets/
-├── ref/**           # Content here should *not* be used, only added as a reference
-├── pico2_cards.png  # Pico cards tileset
-└── pico2_cover.png  # Pico cover card
-└── play_deck.png    # A possible play deck example
-└── card_16.png      # The missing card 16. (but it is in a different color)
+├── ref/**           - Content here should *not* be used, only added as a reference
+├── pico2_cards.png  - Pico cards tileset
+└── pico2_cover.png  - Pico cover card
+└── play_deck.png    - A possible play deck example
+└── card_16.png      - The missing card 16. (but it is in a different color)
 ```
 
 All assets are in ``PNG`` format.
