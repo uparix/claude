@@ -1,7 +1,11 @@
 ---
 name: software-development-rules
-description: >
+description:
   These are the ever-green software development rules. Can be applied for all kind of software based projects.
+license: MIT
+metadata:
+  author: uparix
+  version: "1.0.0"
 ---
 
 # Software Development Rules
